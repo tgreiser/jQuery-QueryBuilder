@@ -107,6 +107,10 @@ $ticks-position: 5px, 10px !default;
     }
   }
 
+  .rule-extra-container {
+    display: inline;
+  }
+
   // ERRORS
   .error-container {
     @extend %rule-component;
