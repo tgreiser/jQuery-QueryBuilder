@@ -1,5 +1,9 @@
 # jQuery QueryBuilder
 
+Fork by Tim Greiser
+Includes a new option: filter_builder: true/false
+If true, extra input fields are added to indicate if users can override the filters. Used for building interactive reports from saved queries.
+
 [![Bower version](https://img.shields.io/bower/v/jQuery-QueryBuilder.svg?style=flat-square)](http://querybuilder.js.org)
 [![CDN](https://img.shields.io/badge/cdn-jsdelivr-%23EB4C36.svg?style=flat-square)](http://www.jsdelivr.com/projects/jquery.query-builder)
 [![Build Status](https://img.shields.io/travis/mistic100/jQuery-QueryBuilder.svg?style=flat-square)](https://travis-ci.org/mistic100/jQuery-QueryBuilder)

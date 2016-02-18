@@ -47,6 +47,12 @@ QueryBuilder.templates.rule = '\
   <div class="rule-filter-container"></div> \
   <div class="rule-operator-container"></div> \
   <div class="rule-value-container"></div> \
+  {{? it.settings.filter_builder }} \
+  <div class="rule-extra-container"> \
+    Report Filter? <input type="checkbox" value="1" name="builder_rule_{{= it.rule_id }}_is_filter" class="filterBuilderToggle" /> \
+    Name <input type="text" value="" name="builder_rule_{{= it.rule_id }}_filter_name" class="filterBuilderName" /> \
+  </div> \
+  {{?}} \
 </li>';
 
 QueryBuilder.templates.filterSelect = '\

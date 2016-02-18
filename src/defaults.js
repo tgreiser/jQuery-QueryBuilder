@@ -106,6 +106,7 @@ QueryBuilder.DEFAULTS = {
     filters: [],
     plugins: [],
 
+    filter_builder: false,
     display_errors: true,
     allow_groups: -1,
     allow_empty: false,
